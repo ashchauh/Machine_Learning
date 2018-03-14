@@ -7,4 +7,3 @@ clf=svm.SVR()
 clf=clf.fit(x,y)
 prediction=clf.predict(160,1)
 print (prediction)
-
